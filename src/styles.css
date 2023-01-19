@@ -1,0 +1,26 @@
+body {
+  font-family: sans-serif;
+}
+.app {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: black;
+  color: azure;
+}
+.showToastbutton {
+  padding: 15px 30px;
+  background-color: aliceblue;
+  border-radius: 5px;
+  color: black;
+  border: 1px solid red;
+  font-weight: 600;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.showToastbutton:hover {
+  background-color: grey;
+}
